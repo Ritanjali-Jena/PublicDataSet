@@ -1,0 +1,7 @@
+﻿Field Name,Data Type,Constraint,Description
+cab_id,STRING,PK,Cab ID
+driver_id,STRING,FK,Driver ID
+license_plate_no,STRING,Not Null,Cab license plate number
+car_type,STRING,Not Null,"Cab types(XL, pool etc.)"
+car_model_name,STRING,Not Null,Cab vehicle model name
+car_color,STRING,Not Null,Color of the cab
